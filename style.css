@@ -1,0 +1,202 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+@font-face {
+  font-family: Raleway;
+  src: url(https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap);
+}
+
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
+
+.c-site-header{
+  background-image:url("https://ucarecdn.com/21a227e2-5ecf-4f6c-a95e-5baef7fb642e/");
+  background-size:cover;
+  height:550px;
+  display:flex;
+  justify-content:end;
+  
+}
+.nav-list{
+  margin-left:auto;
+  margin-right:-30rem;
+}
+.nav-list a{
+  color:white;
+  font-family: 'Quicksand', sans-serif;
+  text-decoration:none;
+  font-weight:lighter;
+}
+
+.nav-list a:hover{
+  color:#fdca00;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.nav-list li{
+  float:left;
+  padding:1rem;
+  list-style:none;
+}
+.header-text{
+  color:white;
+  font-family: 'Quicksand', sans-serif;
+  font-size:70px;
+}
+.header-text-name{
+  margin-top:-50px;
+  color:white;
+  font-family: 'Quicksand', sans-serif;
+  font-size:30px;
+  font-weight: lighter;
+}
+.nav-item{
+  margin-top:auto;
+  margin-right:4rem;
+}
+.header-text-des{
+  color:white;
+  font-family: 'Quicksand', sans-serif;
+  font-size:20px;
+  font-weight: lighter;
+  font-style:italic;
+}
+button{
+  height:50px;
+  width:190px;
+  background-color:orange;;
+  border:none;
+  border-radius:13px;
+  box-shadow:0px 0px 10px orange;
+  margin:auto 80px 100px auto;
+}
+button:hover{
+  background-color:darkblue;
+  color:white;
+  box-shadow:0px 0px 10px white;
+}
+main{
+  background-image: url('https://ucarecdn.com/d5ad9af2-9277-4142-94f3-4cb76358a4f1/');
+  background-size:cover;
+  padding:10px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-end;
+  align-items:center;
+}
+h1{
+  color: white;
+  padding:15px;
+}
+p{
+  font-size:14px;
+  padding-top:3rem;
+  padding-right:2rem;
+  text-align:start;
+  color:black;
+  background-color:white;
+  border-radius:20px;
+  display:flex;
+}
+
+img{
+  width:250px;
+  margin:0px 5px auto 1rem;
+  border-radius: 10%;
+  display:flex;
+  padding:10px;
+}
+
+iframe{
+  width:640px;
+  height:360px;
+  margin:20px;
+  border-radius: 25px;
+  box-shadow:0px 0px 10px white;
+}
+
+
+.c-site-footer{
+  height:500px;
+}
+
+.footer-item{
+  display:flex;
+  justify-content: center;
+  background-color:black;
+  color:white;
+  height:500px;
+  padding:80px;
+}
+h4{
+  display:flex;
+  flex:wrap;
+  flex-direction:column;
+}
+  .contact-items{
+    background-color: black;
+    height: 350px;
+    margin: 0 200px;
+    opacity: 1;
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: end;
+  }
+.con-lis-item a{
+  display:inline;
+  color:white;
+  text-decoration:none;
+  padding:10px;
+  margin-top:50px;
+}
+#con-form{
+    padding: 10px;
+    display: flex;
+  flex-direction:column;
+    justify-content:end;
+  align-items:center;
+    width: 1px;
+  margin-top:50px;
+  margin-bottom:50px;
+  }
+  .con-txt{
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 0px 0px 10px white;
+    margin: .5rem;
+  }
+
+  #con-msg{
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0px 0px 10px white
+    text-align: center;
+    width: 300px;
+  }
+  #con-btn{
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    margin: .5rem;
+    font-size: large;
+  }
