@@ -3,178 +3,291 @@
   Check the ⌄ for help with formatting and validating your code.
   You must write some CSS to complete this challenge.
    ===================
+   #ededed
 */
+
 @font-face {
-  font-family: Raleway;
-  src: url(https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap);
+    font-family: Raleway;
+    src: url(https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap);
 }
 
 html,
 body {
-  margin: 0;
-  height: 100%;
+    margin: 0;
+    height: 100%;
+    box-sizing: border-box;
 }
+
 
 /* don't edit this */
+
 .jest-lite-report__status--pass {
-  background: var(--color-pass);
-}
-.jest-lite-report__errors { display:none }
-
-.c-site-header{
-  background-image:url("https://ucarecdn.com/21a227e2-5ecf-4f6c-a95e-5baef7fb642e/");
-  background-size:cover;
-  height:550px;
-  display:flex;
-  justify-content:end;
-  
-}
-.nav-list{
-  margin-left:auto;
-  margin-right:-30rem;
-}
-.nav-list a{
-  color:white;
-  font-family: 'Quicksand', sans-serif;
-  text-decoration:none;
-  font-weight:lighter;
+    background: var(--color-pass);
 }
 
-.nav-list a:hover{
-  color:#fdca00;
-  font-family: 'Quicksand', sans-serif;
+.jest-lite-report__errors {
+    display: none
 }
 
-.nav-list li{
-  float:left;
-  padding:1rem;
-  list-style:none;
-}
-.header-text{
-  color:white;
-  font-family: 'Quicksand', sans-serif;
-  font-size:70px;
-}
-.header-text-name{
-  margin-top:-50px;
-  color:white;
-  font-family: 'Quicksand', sans-serif;
-  font-size:30px;
-  font-weight: lighter;
-}
-.nav-item{
-  margin-top:auto;
-  margin-right:4rem;
-}
-.header-text-des{
-  color:white;
-  font-family: 'Quicksand', sans-serif;
-  font-size:20px;
-  font-weight: lighter;
-  font-style:italic;
-}
-button{
-  height:50px;
-  width:190px;
-  background-color:orange;;
-  border:none;
-  border-radius:13px;
-  box-shadow:0px 0px 10px orange;
-  margin:auto 80px 100px auto;
-}
-button:hover{
-  background-color:darkblue;
-  color:white;
-  box-shadow:0px 0px 10px white;
-}
-main{
-  background-image: url('https://ucarecdn.com/d5ad9af2-9277-4142-94f3-4cb76358a4f1/');
-  background-size:cover;
-  padding:10px;
-  text-align:center;
-  display:flex;
-  flex-direction:column;
-  justify-content:flex-end;
-  align-items:center;
-}
-h1{
-  color: white;
-  padding:15px;
-}
-p{
-  font-size:14px;
-  padding-top:3rem;
-  padding-right:2rem;
-  text-align:start;
-  color:black;
-  background-color:white;
-  border-radius:20px;
-  display:flex;
+.c-site-header {
+    background-image: url("https://ucarecdn.com/21a227e2-5ecf-4f6c-a95e-5baef7fb642e/");
+    background-size: cover;
+    background-position: center;
+    height: 550px;
 }
 
-img{
-  width:250px;
-  margin:0px 5px auto 1rem;
-  border-radius: 10%;
-  display:flex;
-  padding:10px;
+.nav-list {
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
 }
 
-iframe{
-  width:640px;
-  height:360px;
-  margin:20px;
-  border-radius: 25px;
-  box-shadow:0px 0px 10px white;
+.nav-list a {
+    color: black;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    font-weight: lighter;
 }
 
-
-.c-site-footer{
-  height:500px;
+.nav-list a:hover {
+    color: #fdca00;
+    font-family: 'Quicksand', sans-serif;
 }
 
-.footer-item{
-  display:flex;
-  justify-content: center;
-  background-color:black;
-  color:white;
-  height:500px;
-  padding:80px;
+.nav-list li {
+    display: inline-flex;
+    padding: 1rem;
+    list-style: none;
 }
-h4{
-  display:flex;
-  flex:wrap;
-  flex-direction:column;
+
+.nav-item {
+    display: flex;
+    flex-direction: row;
+    flex-flow: column;
+    justify-content: flex-end;
+    align-items: end;
+    margin-right: 2rem;
 }
-  .contact-items{
-    background-color: black;
-    height: 350px;
-    margin: 0 200px;
-    opacity: 1;
+
+.header-text {
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 70px;
+}
+
+.header-text-name {
+    margin-top: -50px;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.header-text-des {
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+button {
+    height: 50px;
+    width: 190px;
+    background-color: orange;
+    border: none;
+    border-radius: 13px;
+    box-shadow: 0px 0px 10px orange;
+}
+
+button:hover {
+    background-color: white;
+    color: orange;
+    font-weight: bold;
+    box-shadow: 0px 0px 10px white;
+}
+
+main {
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.main-list {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.main-img {
+    width: 300px;
+}
+
+h1 {
+    color: #d5d2d2;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: medium;
+    font-family: 'Quicksand', sans-serif;
+}
+
+p {
+    display: flex;
+    font-size: 1x;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 3rem;
+    padding-right: 2rem;
+    text-align: start;
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+}
+
+img {
+    width: 200px;
+    margin: 0px 5px auto 1rem;
+    border-radius: 10%;
+    display: flex;
+    padding: 10px;
+}
+
+iframe {
+    width: 640px;
+    height: 360px;
+    margin: 20px;
     border-radius: 25px;
+    box-shadow: 0px 0px 10px white;
+}
+
+.main-content-list {
+    justify-content: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px black;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: end;
-  }
-.con-lis-item a{
-  display:inline;
-  color:white;
-  text-decoration:none;
-  padding:10px;
-  margin-top:50px;
 }
-#con-form{
-    padding: 10px;
+
+#skill-txt {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    color: #a4a1a1;
+    text-transform: uppercase;
+}
+
+.main-skills {
     display: flex;
-  flex-direction:column;
-    justify-content:end;
-  align-items:center;
-    width: 1px;
-  margin-top:50px;
-  margin-bottom:50px;
-  }
-  .con-txt{
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-around;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px black;
+    text-align: center;
+}
+
+.main-p-detail {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main-p-detail .skills-img {
+    width: 50px;
+    margin: 0 auto;
+}
+
+.main-p-detail {
+    text-transform: uppercase;
+    font-size: medium;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    text-align: center
+}
+
+span {
+    color: rgb(118, 118, 118);
+    font-family: 'Quicksand', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.c-site-footer {
+    background-color: black;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-item {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.con-txts {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    color: orange;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.contact-items {
+    display: block;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.con-lis-item {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.con-lis-item a {
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: lighter;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.con-lis-item a:hover {
+    color: orange;
+    text-decoration: none;
+    padding: 10px;
+}
+
+
+/* #con-form {
+    padding: 10px;
+    display: inline;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+} */
+
+.con-txt {
     width: 300px;
     height: 50px;
     text-align: center;
@@ -182,16 +295,17 @@ h4{
     border: none;
     box-shadow: 0px 0px 10px white;
     margin: .5rem;
-  }
+}
 
-  #con-msg{
+#con-msg {
     border-radius: 12px;
     border: none;
-    box-shadow: 0px 0px 10px white
+    box-shadow: 0px 0px 10px white;
     text-align: center;
     width: 300px;
-  }
-  #con-btn{
+}
+
+#con-btn {
     width: 300px;
     height: 50px;
     text-align: center;
@@ -199,4 +313,4 @@ h4{
     border: none;
     margin: .5rem;
     font-size: large;
-  }
+}
